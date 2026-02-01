@@ -1,0 +1,159 @@
+.navbar {
+  background-color: #0b0b0a;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid rgba(186, 186, 186, 0.052);
+  transition: all 0.3s ease;
+}
+.btnNavbar {
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+.btnNavbar:hover {
+  background-color: #00000081;
+  border: 1px solid #a1a1a12f;
+}
+.btnNavbar:hover svg {
+  stroke: #a1a1a1ee;
+}
+.btnNavbar svg {
+  width: 24px;
+  height: 24px;
+  color: #a1a1a19e;
+  stroke: #a1a1a1c6;
+  transition: all 0.3s ease;
+}
+.textNavdar {
+  color: rgb(255, 255, 255);
+}
+.logoImage {
+  width: 48px;
+  aspect-ratio: 1/1;
+  transition: transform 0.3s ease;
+}
+
+.logoImage:hover {
+  transform: scale(1.09);
+}
+.f20 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.f12 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.f14 {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.f146 {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.orange {
+  color: #ff8903cc;
+}
+
+.anchors {
+  padding: 0.375rem;
+  border: 1px solid #87878733;
+}
+.anchorIsActive {
+  padding: 0.625rem 1.25rem;
+  background-image: linear-gradient(
+    to right,
+    oklch(0.705 0.213 47.604) 0%,
+    oklch(0.646 0.222 41.116) 100%
+  );
+  color: #fff;
+}
+.anchorNotActive {
+  padding: 10px 20px;
+  color: #b2b2b2da;
+  transition: color 0.3s ease;
+}
+.anchorNotActive:hover {
+  color: #d2d2d2;
+}
+
+.btnSearch {
+  padding: 0.5rem;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #bebebe69;
+  outline: none;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+.btnSearch:hover {
+  background-color: #00000024;
+  border: 1px solid #aeaeae3b;
+}
+.btnSearch:hover svg {
+  color: #ff6900;
+}
+.btnSearch svg {
+  width: 20px;
+  height: 20px;
+  transition: color 0.3s ease;
+}
+.anchorRead {
+  background-image: linear-gradient(
+    135deg,
+    rgb(249, 115, 22),
+    rgb(234, 88, 12)
+  );
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.linkNav {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background-color: transparent;
+}
+.linkNavActive {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background-color: #2e1e14;
+  border: 1px solid oklab(0.705 0.143615 0.157301 / 0.3);
+  color: oklch(0.705 0.213 47.604);
+}
+.linkNav:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+.linkDiv {
+  background-color: rgb(22, 22, 22);
+  border: 1px solid rgb(38, 38, 38);
+  padding: 1rem;
+  border-radius: 12px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-100px);
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+.linkDiv.show {
+  max-height: 400px;
+  opacity: 1;
+  transform: translateY(0);
+}
+.startRead {
+  background-image: linear-gradient(
+    135deg,
+    rgb(249, 115, 22),
+    rgb(234, 88, 12)
+  );
+  padding: 1rem 2rem;
+  color: white;
+}

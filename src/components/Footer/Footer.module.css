@@ -1,0 +1,145 @@
+.footer {
+  background-color: #0c0b0a;
+  padding: 2.5rem 0rem 0rem 0rem;
+  border-top: 1px solid oklch(86.995% 0.0001 271.152 / 0.129);
+  margin-top: 2.5rem;
+}
+
+.f20 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.f14 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4375rem;
+}
+.f16 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.white {
+  color: #fff;
+}
+.gray {
+  color: #737373;
+}
+.orange {
+  color: #ff6900;
+}
+.footerLogo {
+  width: 44px;
+  aspect-ratio: 1/1;
+  background-image: linear-gradient(
+    to right bottom,
+    oklch(0.705 0.213 47.604) 0%,
+    oklch(0.646 0.222 41.116)
+  );
+  border-radius: 12px;
+}
+.linkExtrnal {
+  padding: 0.5rem;
+  background-color: #161616;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.linkExtrnal:hover {
+  background-color: #fe5d00;
+  transform: scale(1.16);
+}
+.linkExtrnal:hover svg {
+  color: #fff;
+}
+
+.linkExtrnal svg {
+  color: #737373;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+}
+
+.glow1 {
+  width: 96%;
+  height: 96%;
+  top: 0;
+  right: 0;
+}
+
+.lineGradient {
+  width: 32px;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    oklch(0.705 0.213 47.604) 0%,
+    oklch(0.795 0.184 86.047) 100%
+  );
+  border-radius: 2px;
+}
+.arrowFooter svg {
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  transform: translateX(0px);
+  transition: all 0.3s ease;
+  rotate: 180deg;
+}
+.arrowFooter:hover svg {
+  opacity: 1;
+  transform: translateX(-6px);
+}
+.arrowFooter {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.arrowFooter:hover {
+  background: linear-gradient(to right, #ff4d07 30%, #ec6900 70%, #a9312d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateX(-12px);
+}
+.arrowFooter:hover svg path {
+  stroke: url(#footerGradient);
+}
+.inputCustom {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #7373733e;
+  background-color: #161616;
+  outline: none;
+}
+.inputCustom:focus {
+  border: 2px solid #ff6900;
+}
+.grayDark {
+  color: #51515177;
+}
+.btnSubscride {
+  padding: 0.75rem 2rem;
+  background-image: linear-gradient(
+    135deg,
+    rgb(249, 115, 22),
+    rgb(234, 88, 12)
+  );
+  border: none;
+  transition: transform 0.3s ease;
+}
+.btnSubscride:hover {
+  transform: translateY(-2px);
+}
+.bottomFooter {
+  border-top: 1px solid #7373733e;
+}
+.linkFooter {
+  transition: all 0.3s ease;
+}
+.linkFooter:hover {
+  background: linear-gradient(to right, #ff4d07 30%, #ec6900 70%, #a9312d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

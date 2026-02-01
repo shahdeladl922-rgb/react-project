@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Tajawal";
+  src: url(/fonts/Tajawal-Regular.ttf) format("truetype");
+}
+
+:root {
+  --font-body: "Tajawal";
+}
+
+#root {
+  background-color: #0c0b0a;
+}
+* {
+  font-family: var(--font-body);
+}
+/* colors */
+.grayWhite {
+  color: oklab(0.999994 0.0000455677 0.0000200868 / 0.8);
+}
+.gray {
+  color: #a1a1a1;
+}
+.gray1 {
+  color: #737373;
+}
+.white {
+  color: #fff;
+}
+.white1 {
+  color: #d4d4d4;
+}
+.orange {
+  color: rgb(249, 115, 22);
+}
+.orangeRed {
+  color: oklch(0.705 0.213 47.604);
+}
+.bg-header {
+  background-color: #0f1117bb;
+}
+.bg-article {
+  background-color: #161616;
+}
+
+/* line-height */
+.line-height {
+  line-height: 3.75rem;
+}
+
+/* fonts */
+.f12-400 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.f12-500 {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.f12-600 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.f12-700 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.f14-400 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.f14-500 {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.f14-600 {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.f14-700 {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.f16-400 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.f16-500 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.f16-600 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.f16-700 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.f18-400 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.f18-700 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.f20-400 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.f20-700 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.f24-700 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.f30-700 {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+.f36-700 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.f48-700 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    135deg,
+    rgb(249, 115, 22),
+    rgb(251, 191, 36)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.inset-0 {
+  inset: 0;
+}
+.f45 {
+  font-size: 2.8125rem;
+}
+
+.pt-100 {
+  padding-top: 5rem;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+
+  .px-150{
+    margin-inline: 300px;
+  }
+  .mx-150{
+    padding-inline: 250px;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 18px;
+  }
+}
